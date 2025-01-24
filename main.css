@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    display: inline-block;
+    padding: 20px;
+    background: #f7d618;
+    border-radius: 10px;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.result.success {
+    background: green;
+}
+
+.result.error {
+    background: red;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
